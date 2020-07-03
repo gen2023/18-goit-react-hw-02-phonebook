@@ -5,7 +5,7 @@ function ContactListItem({ name, number, onRemove }) {
   return (
     <li>
       {name}: {number}
-      <button type="button" onClick={onRemove}>
+      <button className="buttonDelete" type="button" onClick={onRemove}>
         Delete
       </button>
     </li>

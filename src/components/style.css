@@ -2,6 +2,11 @@
   margin-left: 10px;
 }
 
-.addContact {
+.addContact,
+li {
   margin-bottom: 5px;
+}
+
+.buttonDelete {
+  margin-left: 10px;
 }

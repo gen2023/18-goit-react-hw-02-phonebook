@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,OACE,gBACF,CAEA,eAEE,iBACF,CAEA,cACE,gBACF","file":"main.09177004.chunk.css","sourcesContent":[".input {\n  margin-left: 10px;\n}\n\n.addContact,\nli {\n  margin-bottom: 5px;\n}\n\n.buttonDelete {\n  margin-left: 10px;\n}\n"]}
