@@ -7,6 +7,7 @@ const Filter = ({ filter, handleFilter }) => (
       Find contacts by name
       <input
         type="text"
+        className="input"
         placeholder="Enter name"
         value={filter}
         name="filter"

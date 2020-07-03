@@ -33,11 +33,12 @@ export default class AddContact extends Component {
     const { name, number } = this.state;
     return (
       <form onSubmit={this.handleSubmit}>
-        <div>
+        <div className="addContact">
           <label>
             Name
             <input
               type="text"
+              className="input"
               placeholder="Enter name"
               value={name}
               name="name"
@@ -45,11 +46,12 @@ export default class AddContact extends Component {
             />
           </label>
         </div>
-        <div>
+        <div className="addContact">
           <label>
             number
             <input
               type="text"
+              className="input"
               placeholder="Enter number"
               value={number}
               name="number"
